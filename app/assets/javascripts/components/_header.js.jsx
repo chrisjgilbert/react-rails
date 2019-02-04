@@ -1,9 +1,9 @@
-var Header = React.createClass({
+class Header extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hell, world!</h1>
+        <h1>Hello, world!</h1>
       </div>
     )
   }
-})
+}
